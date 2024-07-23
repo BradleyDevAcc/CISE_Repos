@@ -2,9 +2,13 @@ name: CI_action
 
 on:
   push:
-    branches: [master]
+    branches:
+      - master
+      - worksheet2
   pull_request:
-    branches: [master]
+    branches: 
+      - master
+      - worksheet2
 
 jobs:
   build:
