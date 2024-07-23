@@ -30,6 +30,7 @@ class App extends Component<{}, State> {
       <div>
         <p>Count: {this.state.count}</p>
         <button className="increment" onClick={this.increment}>Increment count</button>
+        <p>Test CI Flow</p>
       </div>
     )
   }
