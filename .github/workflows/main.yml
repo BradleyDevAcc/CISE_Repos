@@ -33,7 +33,7 @@ jobs:
         
 
       - name: Run the test
-        run: npm test a
+        run: npm test
         working-directory: Worksheet 2/cise_ass1a_worksheet2-frontend
 
       - name: Build
